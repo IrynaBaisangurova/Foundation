@@ -4,7 +4,7 @@ $('.modal__overlay').on('click', function(e){
     }
 })
 $('.close').on('click', function(){
-    $(this).parents('modal__overlay').fadeOut();
+    $(this).parents('.modal__overlay').fadeOut();
 })
 $('#modal__button').on('click', function(){
     $('.modal__overlay').fadeIn();
