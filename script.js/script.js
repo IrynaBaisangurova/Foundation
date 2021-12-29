@@ -10,6 +10,10 @@ $('.items__selector > div').on('click', function(){
 })
 $('.carousel').slick({
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     dots: true,
+});
+$('.carousel1').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
 });
